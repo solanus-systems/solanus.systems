@@ -1,0 +1,30 @@
+/* solanus.systems stylesheet */
+
+// Typography
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap");
+$font-family-sans-serif: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+// Theme
+$theme-colors: (
+    "light":      #e3e3e9,
+    "dark":       #050304,
+    "primary":    #186764,
+    "secondary":  #1a8d7e,
+    "info":       #bd665d,
+    "accent1":    #6a3c2e,
+    "accent2":    #646061,
+    "accent3":    #b2a39f,
+    "success":    #0fa547,
+    "warning":    #edc710,
+    "danger":     #f30635,
+);
+
+// Import all of Bootstrap's styles
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background: url("waves.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}

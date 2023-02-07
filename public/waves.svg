@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 1422 800">
+  <defs>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="oooscillate-grad">
+      <stop stop-color="#186764" stop-opacity="1" offset="0%"></stop>
+      <stop stop-color="#6a3c2e" stop-opacity="1" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <g stroke-width="2" stroke="url(#oooscillate-grad)" fill="none" stroke-linecap="round" transform="translate(0, 800) scale(1, -1)">
+    <path d="M 0 572 Q 355.5 -100 711 400 Q 1066.5 900 1422 572" stroke-dasharray="70 107"
+      opacity="1.00"></path>
+    <path d="M 0 550 Q 355.5 -100 711 400 Q 1066.5 900 1422 550" stroke-dasharray="94 45"
+      opacity="0.96"></path>
+    <path d="M 0 528 Q 355.5 -100 711 400 Q 1066.5 900 1422 528" stroke-dasharray="7 107"
+      opacity="0.92"></path>
+    <path d="M 0 506 Q 355.5 -100 711 400 Q 1066.5 900 1422 506" stroke-dasharray="121 5"
+      opacity="0.89"></path>
+    <path d="M 0 484 Q 355.5 -100 711 400 Q 1066.5 900 1422 484" stroke-dasharray="58 41"
+      opacity="0.85"></path>
+    <path d="M 0 462 Q 355.5 -100 711 400 Q 1066.5 900 1422 462" stroke-dasharray="112 93"
+      opacity="0.81"></path>
+    <path d="M 0 440 Q 355.5 -100 711 400 Q 1066.5 900 1422 440" stroke-dasharray="49 68"
+      opacity="0.77"></path>
+    <path d="M 0 418 Q 355.5 -100 711 400 Q 1066.5 900 1422 418" stroke-dasharray="91 149"
+      opacity="0.73"></path>
+    <path d="M 0 396 Q 355.5 -100 711 400 Q 1066.5 900 1422 396" stroke-dasharray="16 8"
+      opacity="0.70"></path>
+    <path d="M 0 374 Q 355.5 -100 711 400 Q 1066.5 900 1422 374" stroke-dasharray="129 85"
+      opacity="0.66"></path>
+    <path d="M 0 352 Q 355.5 -100 711 400 Q 1066.5 900 1422 352" stroke-dasharray="65 56"
+      opacity="0.62"></path>
+    <path d="M 0 330 Q 355.5 -100 711 400 Q 1066.5 900 1422 330" stroke-dasharray="57 147"
+      opacity="0.58"></path>
+    <path d="M 0 308 Q 355.5 -100 711 400 Q 1066.5 900 1422 308" stroke-dasharray="56 37"
+      opacity="0.54"></path>
+    <path d="M 0 286 Q 355.5 -100 711 400 Q 1066.5 900 1422 286" stroke-dasharray="36 34"
+      opacity="0.51"></path>
+    <path d="M 0 264 Q 355.5 -100 711 400 Q 1066.5 900 1422 264" stroke-dasharray="83 37"
+      opacity="0.47"></path>
+    <path d="M 0 242 Q 355.5 -100 711 400 Q 1066.5 900 1422 242" stroke-dasharray="25 30"
+      opacity="0.43"></path>
+    <path d="M 0 220 Q 355.5 -100 711 400 Q 1066.5 900 1422 220" stroke-dasharray="46 141"
+      opacity="0.39"></path>
+    <path d="M 0 198 Q 355.5 -100 711 400 Q 1066.5 900 1422 198" stroke-dasharray="112 64"
+      opacity="0.35"></path>
+    <path d="M 0 176 Q 355.5 -100 711 400 Q 1066.5 900 1422 176" stroke-dasharray="105 31"
+      opacity="0.32"></path>
+    <path d="M 0 154 Q 355.5 -100 711 400 Q 1066.5 900 1422 154" stroke-dasharray="111 120"
+      opacity="0.28"></path>
+    <path d="M 0 132 Q 355.5 -100 711 400 Q 1066.5 900 1422 132" stroke-dasharray="46 63"
+      opacity="0.24"></path>
+    <path d="M 0 110 Q 355.5 -100 711 400 Q 1066.5 900 1422 110" stroke-dasharray="105 107"
+      opacity="0.20"></path>
+    <path d="M 0 88 Q 355.5 -100 711 400 Q 1066.5 900 1422 88" stroke-dasharray="100 63"
+      opacity="0.16"></path>
+    <path d="M 0 66 Q 355.5 -100 711 400 Q 1066.5 900 1422 66" stroke-dasharray="21 77"
+      opacity="0.13"></path>
+    <path d="M 0 44 Q 355.5 -100 711 400 Q 1066.5 900 1422 44" stroke-dasharray="139 19"
+      opacity="0.09"></path>
+  </g>
+</svg>

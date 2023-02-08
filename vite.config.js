@@ -1,26 +1,25 @@
-import { resolve } from 'path'
-import { defineConfig } from 'vite'
+import { resolve } from "path"
+import { defineConfig } from "vite"
 
-const root = resolve(__dirname, 'src')
+const root = resolve(__dirname, "src")
 
 export default defineConfig({
   root: root,
   resolve: {
     alias: {
-      '~bootstrap': resolve(__dirname, 'node_modules/bootstrap'),
+      "~bootstrap": resolve(__dirname, "node_modules/bootstrap"),
     }
   },
   build: {
-    outDir: resolve(__dirname, 'dist'),
+    outDir: resolve(__dirname, "dist"),
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: resolve(root, 'index.html'),
-        about: resolve(root, 'about/index.html'),
+        main: resolve(root, "index.html"),
       }
     }
   },
-  publicDir: resolve(__dirname, 'public'),
+  publicDir: resolve(__dirname, "public"),
   server: {
     port: 8080,
     hot: true

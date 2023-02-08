@@ -42,13 +42,13 @@
           <p class="col-lg-10 fs-5 blurb">Control your fermenters, barrel rooms, and facility with smart devices and custom dashboards. Catch problems before they impact your product. Execute your winemaking plan with unparalleled precision.</p>
         </div>
         <div class="col-md-10 mx-auto col-lg-5">
-          <form class="p-4 p-md-5 border rounded-3 bg-light shadow">
+          <form class="p-4 p-md-5 border rounded-3 bg-light shadow" data-static-form-name="waitlist">
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="name-input" placeholder="your name">
+              <input name="name" type="text" class="form-control" id="name-input" placeholder="your name">
               <label for="name-input">Name</label>
             </div>
             <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="email-input" placeholder="name@example.com">
+              <input name="email" type="email" class="form-control" id="email-input" placeholder="name@example.com">
               <label for="email-input">Email address</label>
             </div>
             <button class="w-100 btn btn-lg btn-primary" type="submit">Join the waitlist</button>
@@ -71,7 +71,7 @@
       <p class="text-center text-muted">© 2023 Terroir Tech, LLC</p>
     </div>
   </footer>
-  <script type="module" src="/main.js"></script>
+  <script type="module" src="/scripts/main.ts"></script>
 </body>
 
 </html>

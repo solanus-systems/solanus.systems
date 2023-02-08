@@ -43,3 +43,9 @@ main::before {
         background-position: center;
     }
 }
+
+.blurb {
+    @include media-breakpoint-down(md) {
+        font-size: 1rem !important;
+    }
+}

@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 1422 800">
+<?xml version="1.1" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1422 800">
   <defs>
     <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="oooscillate-grad">
-      <stop stop-color="#186764" stop-opacity="1" offset="0%"></stop>
-      <stop stop-color="#6a3c2e" stop-opacity="1" offset="100%"></stop>
+      <stop stop-color="#990012" stop-opacity="1" offset="0%"></stop>
+      <stop stop-color="#edc710" stop-opacity="1" offset="100%"></stop>
     </linearGradient>
   </defs>
   <g stroke-width="2" stroke="url(#oooscillate-grad)" fill="none" stroke-linecap="round" transform="translate(0, 800) scale(1, -1)">

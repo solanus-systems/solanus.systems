@@ -108,7 +108,7 @@
     <!-- hero -->
     <main class="flex-grow-1">
       <div class="container col-xl-10 col-xxl-8 px-4 py-md-5">
-        <div class="row align-items-center g-lg-5 py-md-5">
+        <div class="row g-lg-5 py-md-5">
           <div class="col-lg-7 text-center text-lg-start">
             <h1 class="display-4 fw-bold lh-1 mb-3">
               We're bringing a new standard of control to winemakers.
@@ -121,39 +121,77 @@
             </p>
           </div>
           <div class="col-md-10 mx-auto col-lg-5">
-            <form
-              class="p-4 p-md-5 border rounded-3 shadow waitlist"
-              data-static-form-name="waitlist"
+            <div
+              class="p-4 p-md-5 border rounded-3 shadow waitlist-form-container"
             >
-              <div class="form-floating mb-3">
+              <form data-static-form-name="waitlist" id="waitlist-form">
                 <input
-                  name="name"
                   type="text"
-                  class="form-control"
-                  id="name-input"
-                  placeholder="your name"
+                  name="address"
+                  class="visually-hidden"
+                  placeholder="don't fill this in unless you're a robot"
                 />
-                <label for="name-input">Name</label>
+                <div class="form-floating mb-3">
+                  <input
+                    name="name"
+                    type="text"
+                    class="form-control"
+                    id="name-input"
+                    placeholder="your name"
+                  />
+                  <label for="name-input">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    name="email"
+                    type="email"
+                    class="form-control"
+                    id="email-input"
+                    placeholder="name@example.com"
+                  />
+                  <label for="email-input">Email address</label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">
+                  <span class="submit-text">Join the waitlist</span>
+                  <span
+                    class="spinner-border spinner-border-sm d-none"
+                    role="status"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="loading-text d-none">Loading...</span>
+                </button>
+                <hr class="my-4" />
+                <small class="text-muted"
+                  >We're sending prototype systems to partner wineries starting
+                  in Q2 2023.</small
+                >
+              </form>
+              <div class="d-none waitlist-success">
+                <h4 class="text-success">You're on the list!</h4>
+                <p>
+                  You should receive an email asking for more details shortly.
+                </p>
+                <hr />
+                <small class="text-muted"
+                  >If the email doesn't show up, check your junk folder and let
+                  us know at
+                  <a class="email" href="mailto:info@example.com"
+                    >info@example.com</a
+                  >.</small
+                >
               </div>
-              <div class="form-floating mb-3">
-                <input
-                  name="email"
-                  type="email"
-                  class="form-control"
-                  id="email-input"
-                  placeholder="name@example.com"
-                />
-                <label for="email-input">Email address</label>
+              <div class="d-none waitlist-error">
+                <h4 class="text-danger">Something went wrong.</h4>
+                <p>Try again in a few minutes.</p>
+                <hr />
+                <small class="text-muted"
+                  >If you're still having issues, let us know at
+                  <a class="email link-primary" href="mailto:info@example.com"
+                    >info@example.com</a
+                  >.</small
+                >
               </div>
-              <button class="w-100 btn btn-lg btn-primary" type="submit">
-                Join the waitlist
-              </button>
-              <hr class="my-4" />
-              <small class="text-muted"
-                >We're sending prototype systems to partner wineries starting in
-                Q2 2023.</small
-              >
-            </form>
+            </div>
           </div>
         </div>
       </div>

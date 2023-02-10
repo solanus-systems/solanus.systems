@@ -33,6 +33,38 @@ main {
 }
 
 // Waitlist form styles
-form.waitlist {
+.waitlist-form-container {
   background: var(--bs-secondary-bg);
+
+  &.loading {
+    button[type="submit"] {
+      .submit-text {
+        display: none;
+      }
+
+      .loading-text,
+      .spinner-border {
+        display: inline-block !important;
+      }
+    }
+  }
+
+  &.success,
+  &.error {
+    form {
+      display: none;
+    }
+  }
+
+  &.success {
+    .waitlist-success {
+      display: block !important;
+    }
+  }
+
+  &.error {
+    .waitlist-error {
+      display: block !important;
+    }
+  }
 }

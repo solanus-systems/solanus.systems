@@ -2,12 +2,8 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "lib": [
-      "esnext"
-    ],
-    "types": [
-      "@cloudflare/workers-types"
-    ],
+    "lib": ["esnext"],
+    "types": ["@cloudflare/workers-types"],
     "moduleResolution": "node"
   }
 }

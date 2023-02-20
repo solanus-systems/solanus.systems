@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "tsc --noEmit && prettier --check ."
+    "lint": "tsc --noEmit && prettier --check .",
+    "test": "echo \"No test specified\" && exit 0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230115.0",

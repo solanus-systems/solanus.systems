@@ -7,5 +7,5 @@ export const onRequest: PagesFunction = staticFormsPlugin({
     const email = formData.get("email")
 
     return new Response(`Hello ${name}! We'll email you at ${email}.`)
-  }
+  },
 })

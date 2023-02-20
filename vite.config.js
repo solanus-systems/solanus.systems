@@ -8,7 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "~bootstrap": resolve(__dirname, "node_modules/bootstrap"),
-    }
+    },
   },
   build: {
     outDir: resolve(__dirname, "dist"),
@@ -16,12 +16,12 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(root, "index.html"),
-      }
-    }
+      },
+    },
   },
   publicDir: resolve(__dirname, "public"),
   server: {
     port: 8080,
-    hot: true
+    hot: true,
   },
 })

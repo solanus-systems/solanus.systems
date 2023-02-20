@@ -1,0 +1,16 @@
+/* Global site styles */
+
+// Antialias fonts on Chrome & Safari
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+// Logotype in header
+.logotype * {
+  color: var(--bs-body-color);
+  fill: var(--bs-primary);
+
+  @include color-mode(dark) {
+    fill: var(--bs-body-color);
+  }
+}

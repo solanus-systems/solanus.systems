@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230115.0",
+    "posthtml-include": "^1.7.4",
     "prettier": "^2.8.4",
     "sass": "^1.58.0",
     "typescript": "^4.9.5",

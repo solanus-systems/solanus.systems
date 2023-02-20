@@ -1,5 +1,7 @@
 import { resolve } from "path"
 import { defineConfig } from "vite"
+import postHtmlPlugin from "./vendor/vite-plugin-posthtml"
+import include from "posthtml-include"
 
 const root = resolve(__dirname, "src")
 
@@ -25,4 +27,9 @@ export default defineConfig({
     port: 8080,
     hot: true,
   },
+  plugins: [
+    postHtmlPlugin({
+      plugins: [include({ root })],
+    }),
+  ],
 })

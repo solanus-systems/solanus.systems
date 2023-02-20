@@ -1,0 +1,38 @@
+/* Homepage styles */
+
+// "Swoosh" graphic for background
+main {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url("/assets/waves.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+    @include media-breakpoint-up(lg) {
+      background-position: center;
+    }
+  }
+}
+
+// Background for text to make sure it's readable over the "swoosh"
+.blurb {
+  background-color: var(--bs-body-bg);
+  box-shadow: 0 0 5px 15px var(--bs-body-bg);
+
+  @include media-breakpoint-down(md) {
+    font-size: 1rem !important;
+  }
+}
+
+// Waitlist form styles
+form.waitlist {
+  background: var(--bs-secondary-bg);
+}

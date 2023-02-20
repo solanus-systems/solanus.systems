@@ -1,61 +1,53 @@
 /* solanus.systems stylesheet */
 
-// Typography
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap");
-$font-family-sans-serif: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+// Bootstrap functions (for use in theme)
+@import "~bootstrap/scss/functions";
 
-// Antialias fonts on Chrome & Safari
-* {
-    -webkit-font-smoothing: antialiased;
-}
+// Theme (variable overrides)
+@import "theme";
 
-// Theme
-$theme-colors: (
-    "light":      #e3e3e9,
-    "dark":       #050304,
-    "primary":    #186764,
-    "secondary":  #1a8d7e,
-    "info":       #bd665d,
-    "accent1":    #6a3c2e,
-    "accent2":    #646061,
-    "accent3":    #b2a39f,
-    "success":    #0fa547,
-    "warning":    #edc710,
-    "danger":     #f30635,
-);
+// Bootstrap core (required)
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/variables-dark";
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
 
-// Import all of Bootstrap's styles
-@import "~bootstrap/scss/bootstrap";
+// Bootstrap components (as needed)
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/containers";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+// @import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+// @import "~bootstrap/scss/card";
+// @import "~bootstrap/scss/accordion";
+// @import "~bootstrap/scss/breadcrumb";
+// @import "~bootstrap/scss/pagination";
+// @import "~bootstrap/scss/badge";
+// @import "~bootstrap/scss/alert";
+// @import "~bootstrap/scss/progress";
+// @import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+// @import "~bootstrap/scss/toasts";
+// @import "~bootstrap/scss/modal";
+// @import "~bootstrap/scss/tooltip";
+// @import "~bootstrap/scss/popover";
+// @import "~bootstrap/scss/carousel";
+@import "~bootstrap/scss/spinners";
+// @import "~bootstrap/scss/offcanvas";
+// @import "~bootstrap/scss/placeholders";
+@import "~bootstrap/scss/helpers";
+@import "~bootstrap/scss/utilities/api";
 
-// "Swoosh" graphic for background
-main {
-    position: relative;
-
-    &::before {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background: url("/assets/waves.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: -1;
-    
-        @include media-breakpoint-up(lg) {
-            background-position: bottom;
-        }
-    }
-}
-
-// White outline/shadow for text to make sure it's readable over the background
-.blurb {
-    background-color: white;
-    box-shadow: 0 0 5px 15px white;
-
-    @include media-breakpoint-down(md) {
-        font-size: 1rem !important;
-    }
-}
+// Custom styles
+@import "global";
+@import "home";

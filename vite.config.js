@@ -19,6 +19,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(root, "index.html"),
+        about: resolve(root, "about.html"),
         404: resolve(root, "404.html"),
       },
     },

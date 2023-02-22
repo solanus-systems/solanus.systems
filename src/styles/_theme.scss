@@ -29,3 +29,8 @@ $theme-colors: (
 
 // Enable dark mode based on browser preference
 $color-mode-type: media-query;
+
+// Navigation
+$nav-link-color: var(--bs-body-color);
+$nav-link-hover-color: var(--bs-primary);
+$nav-link-active-color: var(--bs-primary);
